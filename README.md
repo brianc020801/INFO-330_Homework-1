@@ -92,6 +92,8 @@ Your homework is to answer the following questions, and perform the actions that
 ### Questions
 Each question is a SELECT query, and is worth one point. For each question, you will need to write your SQL in a script file whose name is given at the start of the question. So the first question goes into question-1.sql, the second into question-2.sql, and so on.
 
+Remember that for each of these, the grade is not for arriving at the correct answer, it's for writing the SQL that arrives at the correct answer! **Hint**: Each of these questions can be answered by a single SQL statement.
+
 * (question-1.sql) What are the first names of all the people who live in the city of Omaha?
 * (question-2.sql) What are the full name(s) (last and first, in sorted order by last name) who have an age less than 30 (meaning age 29 and down)?
 * (question-3.sql) What are the full name(s) (last and first, in sorted order by last name) of all the female clergy in the database? (**Hint**: look at the "title" column and keep in mind that "Rev" is short for "Reverend".)
@@ -111,3 +113,4 @@ These two commands are to manipulate the data in the database; make sure you run
 
 * (extra-1.sql) Is the female doctor from West Palm Beach, Florida the same age as the male reverend from Phoenix, Arizona? (1 pt)
 * (extra-2.sql) How many different values are there for "Gender" in this database? (1 pt)
+* (extra-3.sql) What is the maximum, minimum, and average age of the people in this database? (1 pt)

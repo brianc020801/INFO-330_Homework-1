@@ -14,7 +14,7 @@ SQLite is often already installed on many operating systems. www.sqlite.org has 
 Before you get too deeply started, take a moment to fire up the SQLite command-line tool and make sure that all works:
 
 ```
-$ sqlite3 homework.db
+$ sqlite3 people.db
 ```
 
 This should bring back a command prompt similar to:
@@ -106,7 +106,7 @@ These two commands are to manipulate the data in the database; make sure you run
 
 * (question-7.sql) The United States has decided that Sacramento is a terrible place to live, and everybody has to leave. Write a SQL statement to change the city for all persons currently living in Sacramento to now live in the city of Tulsa.
 * (question-8.sql) President Biden has issued an executive order that everyone who lives on a "Street" (as opposed to a "Trail", "Hill", "Drive" or other kind of address suffix) is actually 18 years old. Update the database accordingly.
-* (question-9.sql) 
+* (question-9.sql) Your instructor has had some bad memories he'd like to purge from the data. Write a single SQL statement to remove anybody who lives in Kansas City (bad experience with BBQ), Pittsburgh (I dislike their football team), or Jacksonville (because Florida) from the database.
 * (question-10.sql) Put your own information into the database. (You may used falsified information for anything you feel is too personal to share, just make sure your first and last name are the same as what we see in Canvas.)
 
 ### Extra credit

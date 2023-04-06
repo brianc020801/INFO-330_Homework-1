@@ -1,0 +1,1 @@
+INSERT INTO persons VALUES("Brian", "Chien", "brianc81@uw.edu", "Male", "Mr", "20", "12345 ABC Street", "Seattle", "Washington", "98101", "123-456-7890");

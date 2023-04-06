@@ -1,1 +1,1 @@
-SELECT substr(email, instr(email, "@")) FROM persons WHERE city="Seattle";
+SELECT substr(email, instr(email, "@")+1) as domain FROM persons WHERE city="Seattle";
